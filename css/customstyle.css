@@ -1,10 +1,13 @@
-body {
+body{
     padding-top: 54px;
+    background: url("../img/misc/background-3.jpg") top center fixed;
 }
+
 .navbardropdown {
     max-height: 250px;
     overflow-y: scroll;
 }
+
 .navbardropdown::-webkit-scrollbar {
     width: 7px;
     background-color: transparent;
@@ -12,15 +15,15 @@ body {
 
 .navbardropdown::-webkit-scrollbar-thumb {
     border-radius: 7px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: rgba(255,255,255,0.35);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgba(255, 255, 255, 0.35);
 }
 
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
     }
-    li.dropdown:hover > .dropdown-menu {
+    li.dropdown:hover>.dropdown-menu {
         display: block;
     }
     .navbardropdown {
@@ -28,56 +31,53 @@ body {
         overflow-y: auto;
     }
 }
-/*.masthead {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
+blockquote{
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    font-style: italic;
+    text-align: justify;
 }
-header.masthead>.overlay {
-    padding: 5rem 0;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.6);
-}
-@media (min-width: 992px) {
-    header.masthead>.overlay {
-        padding: 10rem 0;
-    }
-}*/
+
 .navbar-logo {
-    max-height: 27px;
+    width: 3rem;
 }
+
 .customlink {
     font: inherit;
     text-decoration: none;
 }
+
 .customlink:hover {
     font: inherit;
     text-decoration: none;
 }
+
 .dropdown-menu {
     border: none;
 }
+
 .scrolloverlaytop {
     display: none;
     position: absolute;
     top: 30px;
     right: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     height: 30px;
-    background: -webkit-radial-gradient(50% 0%, farthest-side, rgba(0,0,0,1) 0, rgba(255,255,255,0) 100%);
-    background: -moz-radial-gradient(50% 0%, farthest-side, rgba(0,0,0,1) 0, rgba(255,255,255,0) 100%);
-    background: radial-gradient(farthest-side at 50% 0%, rgba(0,0,0,1) 0, rgba(255,255,255,0) 100%);
+    background: -webkit-radial-gradient(50% 0%, farthest-side, rgba(0, 0, 0, 1) 0, rgba(255, 255, 255, 0) 100%);
+    background: -moz-radial-gradient(50% 0%, farthest-side, rgba(0, 0, 0, 1) 0, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(farthest-side at 50% 0%, rgba(0, 0, 0, 1) 0, rgba(255, 255, 255, 0) 100%);
 }
+
 .scrolloverlaybottom {
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     height: 30px;
-    background: -webkit-radial-gradient(50% 100%, farthest-side, rgba(0,0,0,1) 0, rgba(255,255,255,0) 100%);
-    background: -moz-radial-gradient(50% 100%, farthest-side, rgba(0,0,0,1) 0, rgba(255,255,255,0) 100%);
-    background: radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,1) 0, rgba(255,255,255,0) 100%);
+    background: -webkit-radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 1) 0, rgba(255, 255, 255, 0) 100%);
+    background: -moz-radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 1) 0, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 1) 0, rgba(255, 255, 255, 0) 100%);
 }
