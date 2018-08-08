@@ -41,7 +41,7 @@ blockquote {
 }
 
 .navbar-logo {
-    width: 3rem;
+    vertical-align: text-top;
 }
 
 .customlink {
