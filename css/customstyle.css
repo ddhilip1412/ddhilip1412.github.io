@@ -1,6 +1,7 @@
-body{
+body {
     padding-top: 54px;
-    background: url("../img/misc/background-3.jpg") top center fixed;
+    background-color: beige;
+    overflow: hidden;
 }
 
 .navbardropdown {
@@ -32,7 +33,7 @@ body{
     }
 }
 
-blockquote{
+blockquote {
     font-size: 2.5rem;
     text-transform: lowercase;
     font-style: italic;
